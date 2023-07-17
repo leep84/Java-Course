@@ -3,7 +3,7 @@ public class MyClass {
         System.out.println("This is a Java course");
         System.out.println(methodOne());
         System.out.println((methodName("Lee")));
-        Main runner = new Main();
+        MyClass runner = new MyClass();
         String myVar = "shrek";
         System.out.println((runner.myMethod(myVar)));
     }
